@@ -1,3 +1,128 @@
+# VOID SURGE
+
+**[Play it live](https://void-surge-survivor.grok.me/)** · desktop and mobile · no account
+
+A 10-minute bullet-heaven extraction on Station Helix-9. You only steer. Weapons fire themselves. Stack a Mk 5 loadout, hold the pad as intensity climbs, and get out before four bosses stack on top of you.
+
+Helix-9 sat quiet on the edge of a dead sector until the Void Surge hit. The crew came back wrong. You dropped onto the extract pad while the last shuttle warms. The swarm is already in the walls. Hold the pad. Get out.
+
+---
+
+## How a run works
+
+Survive **10:00**. Intensity ticks up every minute (INT 1 → 10). Unique bosses land at **2:00, 4:00, 6:00, 8:00** and **stack** if the last one is still standing. In the final minute, spawn rate doubles every ten seconds.
+
+Kills drop XP gems. Level-ups freeze the clock and offer three cards. Loadout cap is **1 CORE + 3 ARMs + 3 MODs**, each ranked to **Mk 5**. Score is kills only — each kill is worth more as intensity climbs. Last until the shuttle, or die trying.
+
+---
+
+## Controls
+
+You never aim or shoot. Auto-fire handles combat.
+
+| Input | Action |
+| --- | --- |
+| **WASD** or **arrow keys** | Move |
+| **Drag** anywhere on a phone / tablet | Virtual stick (avoid the pause button) |
+| **1 / 2 / 3** (or tap a card) | Pick a level-up |
+| **Esc** or bottom-right pause | Pause / resume |
+| Pause → **Home** | Return to title without killing the server |
+
+Title screen: type a callsign (max 14 characters), set Music / Sounds, open **Field manual**, then **Begin extraction**.
+
+---
+
+## Loadout
+
+You always start with the CORE. New ARMs and MODs appear as level-up cards. You can hold three of each. Ranking an owned piece to Mk 5 is usually stronger than grabbing a fourth you cannot equip.
+
+### CORE
+
+| Gear | What it does | Mk 5 |
+| --- | --- | --- |
+| **Light Saber** | Close-range energy blade. Swings itself at anything in reach. | The cut opens toward a half-circle. Faster, harder, longer reach. |
+
+### ARMs (weapons)
+
+| Gear | What it does | How it ranks |
+| --- | --- | --- |
+| **Plasma Shotgun** | Tight burst of plasma pellets. Brutal up close. | More pellets, harder hit (3 → 8). |
+| **Laser Beam** | Piercing ray through the swarm. | Cuts through more bodies (2 → 14 pierce). |
+| **Fire Trail** | Walking leaves a burning wake. | Hotter, wider, lasts longer. |
+| **Energy Orbs** | Charged spheres orbit you and shred what they touch. | More orbs, wider orbit (2 → 6). |
+| **Combat Drone** | A piercing disc that flies the field. | Another disc joins the hunt (1 → 5). |
+| **Sentry Turret** | Drops a turret that fires, dies on a timer, then auto-redeploys. | More turrets, longer uptime (1 → 3). |
+| **Tesla Coil** | Lightning jumps through clustered targets. | The bolt jumps further (2 → 7 chains). |
+| **Radiation Cloud** | Toxic field around you. Slows and burns everything inside. | The cloud grows. The burn bites harder. |
+| **Orbital Strike** | Random beams drop from above and cook a patch of ground. | More strikes per volley, larger burn (1 → 3). |
+| **Cryo Grenade** | Thrown charges that detonate on impact. Damage and a hard slow. | More grenades, bigger freeze (1 → 3). |
+
+### MODs (passives)
+
+Each rank is **+5%**, except where noted. Three slots. Mk 5 is the cap.
+
+| Mod | Effect per rank |
+| --- | --- |
+| **Servo Haste** | Projectiles fly 5% faster |
+| **Overcharge** | All damage +5% |
+| **Stride Coil** | Move 5% faster |
+| **Magnet Loop** | Pickup radius +5% |
+| **Plating** | Max hull +5% |
+| **XP Antenna** | Experience +5% |
+| **Coolant** | Weapon cooldown −5% |
+| **Field Med** | Recover 5% hull every 10 seconds |
+| **Kinetic Ward** | Take 5% less damage |
+| **Bait Signal** | Enemy spawn **+10%**. More targets, more XP |
+| **Lens Array** | Weapon range +5% |
+| **Split Chamber** | Fire **+1** projectile. Mk 5 adds a second extra shot |
+
+---
+
+## Swarm
+
+Fodder scales with intensity: more HP, more speed, more contact damage. Later minutes they gain extra tricks.
+
+| Mob | Role |
+| --- | --- |
+| **Crawler** | Pack runner. From INT 6 they dash. |
+| **Brute** | Slow tank. From INT 4 they charge. |
+| **Spitter** | Keeps range and lobs spit. Cap of 3 shots in flight. Later they fan extra pellets and can slow. |
+| **Elite** | Fast striker. From INT 3 they dash through the line. |
+
+Composition shifts as the clock climbs: crawlers first, then brutes, spitters, then elites take over the mix.
+
+---
+
+## Bosses
+
+One unique titan every two minutes. They **do not despawn** when the next one lands — if you are slow, you fight two, three, then four at once. Off-screen bosses show an arrow in their bar color. Killing a boss drops a gold **vacuum**; walk into it (or wait ~10s) and every gem on the map pulls to you.
+
+| Time | Boss | Kit |
+| --- | --- | --- |
+| **2:00** | **Hearth Titan** | Fire nova ring plus a close slam that knocks you back. |
+| **4:00** | **Ion Hydra** | Triple ion spread (slows) and a body dash. |
+| **6:00** | **Siege Colossus** | Alternating shell walls and mortar rings, plus ground strikes. Periodically summons a brute and a crawler. |
+| **8:00** | **Phase Specter** | Blink combos that cycle cages, phantom volleys, lattice walls, and a spiral. Homing seekers between patterns. |
+
+**Crown of Null** exists in the data as an unused apex (spinning beam + shot ring). It is not in the 10-minute spawn order.
+
+---
+
+## Pickups and hull
+
+- **XP gems** — drop from kills. Magnet Loop and boss vacuums pull them in.
+- **Medkit** — spawns near you on a slow timer. Walk over it for **+28** hull.
+- **Boss vacuum** — gold pickup after a titan dies. Collects every gem on the map.
+- Base hull is **100**. I-frames after a hit. Kinetic Ward soaks damage. Field Med drips hull back.
+
+---
+
+## Scoring
+
+Score is **kills only**. Intensity 1 kills are worth 8; by INT 10 they are worth 140. Surviving longer is worth more than a greedy early farm. Extracting at 10:00 marks the run **EXT** on the local scoreboard. Scores live in this browser (`localStorage`). Export / import / clear from the title screen or the end card.
+
+---
+
 ## Requirements
 
 - Node.js 20 or newer (22 is what the production runtime targets)
@@ -18,7 +143,7 @@ From the repo root:
 
 ```bash
 git clone https://github.com/NguyenMav/Project_Vibecode_GrokBuild_Game_Void_Surge.git
-cd void-surge-survivor
+cd Project_Vibecode_GrokBuild_Game_Void_Surge
 npm install
 ```
 
@@ -141,6 +266,7 @@ Gameplay source of truth:
 - [`src/game/audio.ts`](src/game/audio.ts) music and SFX
 - [`src/game/save.ts`](src/game/save.ts) scoreboard persistence
 - [`src/components/game-view.tsx`](src/components/game-view.tsx) HUD and menus
+- [`src/components/field-guide.tsx`](src/components/field-guide.tsx) in-game field manual
 
 ## Stack
 
@@ -167,4 +293,4 @@ Gameplay source of truth:
 
 ## License
 
-No license file is included. Treat the repo as source you cloned. Add a license before you publish if you need one.
+[MIT](LICENSE.txt) © 2026 Maverick Nguyen.
